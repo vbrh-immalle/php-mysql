@@ -1,6 +1,6 @@
 <?php
 
-// Vergeet niet om mysql-drivers voor php te installeren: `sudo apt-get install php5-mysql`
+// Vergeet niet om mysql-drivers voor php te installeren: `sudo apt-get install php7.0-mysql`
 // Controleer of de webserver nog draait: `sudo service apache2 status`
 // Zoniet: `sudo service apache2 restart`
 
