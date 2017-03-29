@@ -6,7 +6,7 @@
 
 // Maak (met MySQL Workbench) een user (met username/password) aan.
 // Maak vervolgens een nieuwe database `thewall` of `username_thewall`.
-// Maak een file `db_credentials.php` waarin je de variabelen $servername, $username, $password en $database declareerd. 
+// Maak een file `db_credentials.php` waarin je de variabelen $servername, $username, $password en $database declareert. 
 include 'db_credentials.php';
 
 try {
