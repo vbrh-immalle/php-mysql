@@ -17,6 +17,7 @@ try {
     echo "<tr><th>Inhoud</th><th>Tijdstip</th>";
 
     for($i=0; $i<$result->rowCount(); $i++) {
+        // Zie eventueel http://php.net/manual/en/pdostatement.fetch.php 
         $row = $result->fetch(PDO::FETCH_ASSOC);
         echo "<tr>";
         // VUL AAN zodat alle inhouden en tijdstippen worden getoond
